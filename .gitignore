@@ -1,0 +1,16 @@
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Terraform working directory
+.terraform/
+.terraform.lock.hcl
+
+# Terraform variable files
+*.tfvars
+*.tfvars.json
+
+# IDE and OS files
+.DS_Store
+.idea/
+.vscode/
